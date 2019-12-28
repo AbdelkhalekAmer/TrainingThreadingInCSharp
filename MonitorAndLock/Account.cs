@@ -7,6 +7,7 @@ namespace MonitorAndLock
     {
         private object lockObj = new object();
         private int balance = 0;
+        private Random random = new Random();
         public Account(int initialBalanace)
         {
             balance = initialBalanace;
@@ -38,7 +39,23 @@ namespace MonitorAndLock
 
         public void withdrawRandomly()
         {
-            var ba
+            if (Thread.CurrentThread.Name != $"Worker thread {Thread.CurrentThread.ManagedThreadId}")
+            {
+                Thread.CurrentThread.Name = $"Worker thread {Thread.CurrentThread.ManagedThreadId}";
+            }
+
+            for (var i = 0; i < 5; i++)
+            {
+                var balance = withdraw(random.Next(2000, 5000));
+                if (balance > 0)
+                {
+                    Console.WriteLine($"{Thread.CurrentThread.Name}:Balance left {balance}$");
+                }
+                else if (balance == 0)
+                {
+                    Console.WriteLine($"{Thread.CurrentThread.Name}:Balance is 0$");
+                }
+            }
         }
 
     }
