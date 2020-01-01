@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonitorAndLock", "MonitorAn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReaderWriterLock", "ReaderWriterLock\ReaderWriterLock.csproj", "{39EBDDEF-B5A2-4F6A-B77D-CF7B52E63A9A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MutexLocking", "MutexLocking\MutexLocking.csproj", "{07A9F51E-B1CC-4A23-9F61-4BA061798DBD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{39EBDDEF-B5A2-4F6A-B77D-CF7B52E63A9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39EBDDEF-B5A2-4F6A-B77D-CF7B52E63A9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39EBDDEF-B5A2-4F6A-B77D-CF7B52E63A9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07A9F51E-B1CC-4A23-9F61-4BA061798DBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07A9F51E-B1CC-4A23-9F61-4BA061798DBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07A9F51E-B1CC-4A23-9F61-4BA061798DBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07A9F51E-B1CC-4A23-9F61-4BA061798DBD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
