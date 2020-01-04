@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MutexLocking", "MutexLockin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemaphoreSlimLocking", "SemaphoreSlimLocking\SemaphoreSlimLocking.csproj", "{3B15D417-DD15-4CAE-BE51-11147DF083C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoResetEventSignaling", "AutoResetEventSignaling\AutoResetEventSignaling.csproj", "{1926481B-E42E-4990-A598-645A77DE6CA8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{3B15D417-DD15-4CAE-BE51-11147DF083C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B15D417-DD15-4CAE-BE51-11147DF083C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B15D417-DD15-4CAE-BE51-11147DF083C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1926481B-E42E-4990-A598-645A77DE6CA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1926481B-E42E-4990-A598-645A77DE6CA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1926481B-E42E-4990-A598-645A77DE6CA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1926481B-E42E-4990-A598-645A77DE6CA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
